@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">VAMP</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    
+    
+    <string-array name="top_list_slidebar">
+        <item>All Songs</item>
+        <item>Artists</item>
+        <item>Albums</item>
+        <item>Gernes</item>
+        <item>Playlist</item>
+        <item>"What's New"</item>
+    </string-array>
+    <array name="top_icons_slidebar">
+        <item>@drawable/ic_launcher</item>
+        <item>@drawable/ic_launcher</item>
+        <item>@drawable/ic_launcher</item>
+        <item>@drawable/ic_launcher</item>
+        <item>@drawable/ic_launcher</item>
+        <item>@drawable/ic_launcher</item>  
+    </array>
+    
+    <string-array name="bottom_list_slideabr">
+        <item>Settings</item>
+        <item>Eqalizers</item>
+    </string-array>
+    
+    <array name="bottom_icons_slidebar">
+        <item>@drawable/ic_launcher</item>
+        <item>@drawable/ic_launcher</item>
+    </array>
+    <string name="desc_list_item_icon">Item Icon</string>
+
+</resources>
