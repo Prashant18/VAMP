@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="48dp"
-    android:background="@drawable/list_selector"
+    android:background="@drawable/list_selector_all_songs"
     android:orientation="horizontal" >
 
     <ImageView
@@ -19,7 +19,7 @@
         android:layout_height="wrap_content"
         android:hint="This is smaple song"
         android:textAlignment="center"
-        android:textColor="#ffffff"
+        android:textColor="#000000"
         android:textSize="25sp" />
 
 </LinearLayout>
