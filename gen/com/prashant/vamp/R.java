@@ -51,9 +51,12 @@ public final class R {
         public static final int sample=0x7f02000b;
     }
     public static final class id {
-        public static final int action_settings=0x7f0a000d;
+        public static final int action_settings=0x7f0a0011;
+        public static final int album_image=0x7f0a000e;
         public static final int all_songs_Text=0x7f0a0005;
         public static final int artit_details=0x7f0a0008;
+        public static final int bottom_container=0x7f0a000d;
+        public static final int bottom_space=0x7f0a000c;
         public static final int constant=0x7f0a0007;
         public static final int drawer_layout=0x7f0a0000;
         public static final int duration=0x7f0a0006;
@@ -62,7 +65,8 @@ public final class R {
         public static final int icon=0x7f0a0009;
         public static final int list_slidebar=0x7f0a0002;
         public static final int lv_all_songs=0x7f0a000b;
-        public static final int songTitle=0x7f0a000c;
+        public static final int songTitle=0x7f0a0010;
+        public static final int song_text=0x7f0a000f;
         public static final int textView1=0x7f0a0004;
         public static final int title=0x7f0a000a;
     }

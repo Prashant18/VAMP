@@ -18,6 +18,8 @@ import android.widget.ListView;
 
 import com.prashant.adapter.NavDrawerListAdapter;
 import com.prashant.model.NavDrawerItem;
+import com.prashant.vamp.fragments.AllAlbumsFrahment;
+import com.prashant.vamp.fragments.AllArtistFragment;
 import com.prashant.vamp.fragments.AllSongsFragments;
 
 public class MainActivity extends Activity {
@@ -141,6 +143,14 @@ public class MainActivity extends Activity {
 				{
 					fragment=new AllSongsFragments();
 					break;
+				}
+			case 1:
+				{
+					fragment=new AllArtistFragment();
+				}
+			case 2:
+				{
+					fragment=new AllAlbumsFrahment();
 				}
 				default:
 				{
