@@ -3,6 +3,5 @@
     <item android:drawable="@drawable/list_all_song_item_bg_normal" android:state_activated="false"></item>
     <item android:drawable="@drawable/list_all_song_item_bg_pressed" android:state_activated="true"></item>
     <item android:drawable="@drawable/list_all_song_item_bg_pressed" android:state_pressed="true"></item>
-    
-
+    <item android:drawable="@drawable/list_all_song_item_bg_pressed" android:state_focused="true"></item>
 </selector>

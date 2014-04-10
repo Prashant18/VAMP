@@ -9,7 +9,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
-import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.prashant.model.AllSongsItem;
@@ -55,10 +54,16 @@ public class AllSongsAdapter extends BaseAdapter {
 			convertView=mInflater.inflate(R.layout.all_songs_list_each_row, null);
 			Log.d("convertView","ConvertView is null");
 		}
-		ImageView imgIcon=(ImageView) convertView.findViewById(R.id.all_songs_icon);
+		
 		TextView textTitle=(TextView) convertView.findViewById(R.id.all_songs_Text);
-		imgIcon.setImageResource(allSongsItems.get(position).getIcon());
 		textTitle.setText(allSongsItems.get(position).getTitle());
+		
+		TextView textDuration=(TextView) convertView.findViewById(R.id.duration);
+		textDuration.setText(allSongsItems.get(position).getDuration());
+		
+		TextView textArtist=(TextView) convertView.findViewById(R.id.artit_details);
+		textArtist.setText(allSongsItems.get(position).getArtist());
+		
 		Log.d("Return View","View Has been return");
 		return convertView;
 		

@@ -1,23 +1,17 @@
 package com.prashant.model;
 
 public class AllSongsItem {
-	private int icon;
 	private String title;
+	private String duration;
+	private String artist;
 	
 	public AllSongsItem(){}
 	
-	public AllSongsItem(int icon,String title)
+	public AllSongsItem(String title,String duration,String artist)
 	{
-		this.icon=icon;
 		this.title=title;
-	}
-
-	public int getIcon() {
-		return this.icon;
-	}
-
-	public void setIcon(int icon) {
-		this.icon = icon;
+		this.duration=duration;
+		this.artist=artist;
 	}
 
 	public String getTitle() {
@@ -27,6 +21,23 @@ public class AllSongsItem {
 	public void setTitle(String title) {
 		this.title = title;
 	}
+	
+	public String getDuration() {
+		return this.duration;
+	}
+
+	public void setDuration(String duration) {
+		this.duration=duration;
+	}
+	public String getArtist() {
+		return this.artist;
+	}
+
+	public void setArtist(String artist) {
+		this.artist=artist;
+	}
+	
+	
 	
 	//Setting Up GetterSetter Methods
 	

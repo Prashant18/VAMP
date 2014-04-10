@@ -8,17 +8,8 @@
     <ListView
         android:id="@+id/lv_all_songs"
         android:layout_width="match_parent"
-        android:layout_height="65dp"
-        android:layout_weight="0.93" >
+        android:layout_height="match_parent"
+        >
     </ListView>
-
-    <LinearLayout
-        android:id="@+id/image_bottom_songs"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/list_divider"
-        android:src="@drawable/sample"
-        tools:ignore="Orientation" >
-    </LinearLayout>
 
 </LinearLayout>
