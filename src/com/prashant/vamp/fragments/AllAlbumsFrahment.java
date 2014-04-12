@@ -28,6 +28,7 @@ public class AllAlbumsFrahment extends Fragment {
 	private String[] allSongsTtitle;
 	private String[] allSongsDuration;
 	private String[] allSongsArtists;
+	private String[] allSongsData;
 	
 	private ArrayList<AllSongsItem> list_inflate;
             
@@ -37,6 +38,7 @@ public class AllAlbumsFrahment extends Fragment {
 		List<String> temp=new ArrayList<String>();
 		List<String> temp_duration=new ArrayList<String>();
 		List<String> temp_artist=new ArrayList<String>();
+		List<String> temp_data=new ArrayList<String>();
 		
 		/*URI FOR PARSING MEDIASTORE*/
 		Uri uri=MediaStore.Audio.Media.EXTERNAL_CONTENT_URI;

@@ -25,6 +25,7 @@ public final class R {
         public static final int list_background_pressed=0x7f040002;
         public static final int list_divider=0x7f040003;
         public static final int list_item_title=0x7f040000;
+        public static final int white=0x7f040008;
     }
     public static final class dimen {
         /**  Default screen margins, per the Android Design guidelines. 
@@ -41,22 +42,29 @@ public final class R {
         public static final int gradiant_bg_hover=0x7f020001;
         public static final int ic_drawer=0x7f020002;
         public static final int ic_launcher=0x7f020003;
-        public static final int list_all_song_item_bg_normal=0x7f020004;
-        public static final int list_all_song_item_bg_pressed=0x7f020005;
-        public static final int list_item_bg_normal=0x7f020006;
-        public static final int list_item_bg_pressed=0x7f020007;
-        public static final int list_selecter=0x7f020008;
-        public static final int list_selector=0x7f020009;
-        public static final int list_selector_all_songs=0x7f02000a;
-        public static final int sample=0x7f02000b;
+        public static final int ic_media_next=0x7f020004;
+        public static final int ic_media_pause=0x7f020005;
+        public static final int ic_media_play=0x7f020006;
+        public static final int ic_media_previous=0x7f020007;
+        public static final int list_all_song_item_bg_normal=0x7f020008;
+        public static final int list_all_song_item_bg_pressed=0x7f020009;
+        public static final int list_item_bg_normal=0x7f02000a;
+        public static final int list_item_bg_pressed=0x7f02000b;
+        public static final int list_selecter=0x7f02000c;
+        public static final int list_selector=0x7f02000d;
+        public static final int list_selector_all_songs=0x7f02000e;
+        public static final int sample=0x7f02000f;
     }
     public static final class id {
-        public static final int action_settings=0x7f0a0011;
+        public static final int action_settings=0x7f0a0014;
         public static final int album_image=0x7f0a000e;
         public static final int all_songs_Text=0x7f0a0005;
         public static final int artit_details=0x7f0a0008;
         public static final int bottom_container=0x7f0a000d;
         public static final int bottom_space=0x7f0a000c;
+        public static final int button_next=0x7f0a0012;
+        public static final int button_play=0x7f0a0011;
+        public static final int button_previous=0x7f0a0010;
         public static final int constant=0x7f0a0007;
         public static final int drawer_layout=0x7f0a0000;
         public static final int duration=0x7f0a0006;
@@ -65,27 +73,30 @@ public final class R {
         public static final int icon=0x7f0a0009;
         public static final int list_slidebar=0x7f0a0002;
         public static final int lv_all_songs=0x7f0a000b;
-        public static final int songTitle=0x7f0a0010;
+        public static final int songTitle=0x7f0a0013;
         public static final int song_text=0x7f0a000f;
         public static final int textView1=0x7f0a0004;
         public static final int title=0x7f0a000a;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
-        public static final int activity_testing=0x7f030001;
-        public static final int all_songs_list_each_row=0x7f030002;
-        public static final int drawer_list_item=0x7f030003;
-        public static final int fragment_all_songs=0x7f030004;
-        public static final int playlist_item=0x7f030005;
+        public static final int activity_media_handler=0x7f030001;
+        public static final int activity_testing=0x7f030002;
+        public static final int all_songs_list_each_row=0x7f030003;
+        public static final int drawer_list_item=0x7f030004;
+        public static final int fragment_all_songs=0x7f030005;
+        public static final int playlist_item=0x7f030006;
     }
     public static final class menu {
         public static final int main=0x7f090000;
+        public static final int media_handler=0x7f090001;
     }
     public static final class string {
         public static final int action_settings=0x7f060001;
         public static final int app_name=0x7f060000;
         public static final int desc_list_item_icon=0x7f060003;
         public static final int hello_world=0x7f060002;
+        public static final int title_activity_media_handler=0x7f060004;
     }
     public static final class style {
         /** 

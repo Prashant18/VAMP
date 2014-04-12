@@ -4,8 +4,13 @@ import java.util.ArrayList;
 
 import android.app.Activity;
 import android.content.Context;
+import android.text.Spannable;
+import android.text.method.MovementMethod;
+import android.text.method.ScrollingMovementMethod;
 import android.util.Log;
+import android.view.KeyEvent;
 import android.view.LayoutInflater;
+import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
@@ -57,6 +62,7 @@ public class AllSongsAdapter extends BaseAdapter {
 		
 		TextView textTitle=(TextView) convertView.findViewById(R.id.all_songs_Text);
 		textTitle.setText(allSongsItems.get(position).getTitle());
+		
 		
 		TextView textDuration=(TextView) convertView.findViewById(R.id.duration);
 		textDuration.setText(allSongsItems.get(position).getDuration());
